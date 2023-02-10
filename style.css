@@ -1,0 +1,261 @@
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #bfd7e4;
+}
+
+body::before {
+  content: "";
+  background: #293241;
+  width: 100%;
+  height: 46.5rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.page {
+  width: 75rem;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10.7rem auto 0;
+}
+
+header h1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #fff;
+
+  margin-bottom: 0.2rem;
+}
+
+header img {
+  width: 22.5rem;
+  height: 10rem;
+
+  margin-bottom: 3.2rem;
+}
+
+fieldset {
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.top-box {
+  height: 15.6rem;
+  background: #f67669;
+
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-box h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.4rem;
+
+  color: #fff;
+}
+
+form {
+  background: #ffffff;
+
+  padding: 3.1rem 6.4rem 6.4rem;
+
+  border-radius: 0 0 2rem 2rem;
+
+  margin-bottom: 150px;
+}
+
+.legend-header {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #ffffff;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  width: 100%;
+}
+
+.input-wrapper label {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4e4958;
+}
+
+.input-wrapper label span {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #8b8893;
+
+  margin-left: 0.9rem;
+}
+
+.input-wrapper label span:hover {
+  color: #c1bccc;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  height: 5.5rem;
+  background: #fafafc;
+
+  border: 1px solid #e6e6f0;
+
+  border-radius: 0.8rem;
+
+  padding: 1.5rem;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -ms-appearance: none;
+}
+
+.input-wrapper textarea {
+  resize: none;
+}
+
+.container-name-surname {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.personal-information {
+  margin-bottom: 3.2rem;
+}
+
+.mentor-information {
+  margin-bottom: 3.6rem;
+}
+
+legend {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #253b51;
+
+  width: 62.2rem;
+  text-align: center;
+
+  margin-bottom: 3.1rem;
+  padding-bottom: 0.8rem;
+
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.container-mentor-information {
+  display: flex;
+  flex-direction: column;
+  gap: 3.1rem;
+}
+
+.container-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#doubts-clarified {
+  appearance: none;
+  -ms-appearance: none;
+  
+  width: 2.4rem;
+  height: 2.4rem;
+
+  background: #FAFAFC;
+  border-radius: 0.8rem;
+  border: 1px solid #E6E6F0;
+}
+
+#doubts-clarified:checked {
+  background: #F67669;
+}
+
+#feedback-mentor {
+  height: 16.6rem;
+
+  background: #fafafc;
+  border-radius: 0.8rem;
+  border: 1px solid #e6e6f0;
+}
+
+.container-scheduling-mentoring {
+  display: flex;
+}
+
+#date-mentory {
+  margin-right: 3.2rem;
+
+  width: 30rem;
+}
+
+#mentory-time-start {
+  margin-right: 1rem;
+}
+
+.scheduling-mentoring {
+  margin-bottom: 6.4rem;
+}
+
+.button {
+  height: 5.1rem;
+  width: 62.2rem;
+
+  font-size: 2rem;
+  line-height: 2.6rem;
+  color: #fff;
+
+  border-radius: 8px;
+
+  border: none;
+
+  background: #f67669;
+}
+
+.button:hover {
+  background: #fa5d4c;
+}
